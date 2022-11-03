@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FCDDB0;
+}
+header {
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    color: #3f3f3f;
+}
+
+button {
+    width: 200px;
+    height: 39px;
+    border-radius: 40px;
+    border: none;
+    background-color:  #3D7DCA;
+    color: white;
+    padding: 10px;
+    margin-top: 16px;
+}
+h1 {
+    font-size: 5vw;
+}
+
+main {
+    font-family: 'Rajdhani', sans-serif;
+    color: #3f3f3f;
+    min-height: 70vh;
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.card {
+    
+    border-radius: 5px;
+    border: 1px solid #3f3f3f;
+    padding: 1rem;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+    
+}
+.card img{
+    width: 90px;
+}
+.card-2 {
+    border-radius: 5px;
+    border: 1px solid #3f3f3f;
+    padding: 1rem;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2 img {
+    width: 70%;
+}
+
+.card-2 strong {
+    font-weight: 800;
+}
+footer {
+    font-family: 'Rajdhani', sans-serif;
+    color: #3f3f3f;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
